@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.586 sec <<< FAILURE!
+validateListedItemsAreDeletedWhenToggleAllIsOn(test.ToggleAllDeleteValidationTest)  Time elapsed: 2.367 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at pages.MainPage.validateEverythingisDeletedWhenUserClicksOnRemoveWhenToggleAllIsOn(MainPage.java:96)
+	at test.ToggleAllDeleteValidationTest.validateListedItemsAreDeletedWhenToggleAllIsOn(ToggleAllDeleteValidationTest.java:24)
+
